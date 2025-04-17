@@ -1,0 +1,35 @@
+# Entorno virtual
+venv/
+.env
+.env.*
+
+# Archivos temporales
+*.pyc
+__pycache__/
+*.log
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Datos sensibles o grandes
+*.sqlite
+*.h5
+*.sav
+*.dta
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Notebooks checkpoints
+.ipynb_checkpoints
+
+# Archivos de presentación y salidas
+*.pptx
+outputs/
+models/
+
+# Archivos de configuración de IDEs
+.vscode/
+
